@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+    .fs-lg-large {
+        font-size: 2em;
+    }
+
+    .fs-md {
+        font-size: 1rem !important;
+    }
+
+    .h-75-min {
+        height: 90% !important;
+    }
+}

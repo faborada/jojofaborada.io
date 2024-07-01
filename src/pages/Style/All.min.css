@@ -1,0 +1,44 @@
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+#header .nav-link.active {
+    color: #0DCAF0 !important;
+}
+
+#header .btn {
+    background-color: #2B3035 !important;
+    border: 2px solid #0DCAF0 !important;
+    text-align: center !important;
+}
+
+.text-hover-info:hover {
+    color: #0DCAF0 !important;
+}
+
+
+.fs-lg-large {
+    font-size: 4.5em;
+}
+
+.fs-md {
+    font-size: 1.8rem !important;
+}
+
+
+.zoom {
+    transition: transform 1s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.4);
+}
+
+.h-75-min {
+    height: 75% !important;
+}

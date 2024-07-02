@@ -42,3 +42,12 @@ a {
 .h-75-min {
     height: 75% !important;
 }
+
+.cancel {
+    color: #0DCAF0 !important;
+    transition: ease-in-out .5s;
+}
+
+.cancel:hover {
+    color: red !important;
+}

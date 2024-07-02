@@ -7,6 +7,7 @@ import stack4 from '../images/js.png';
 import stack5 from '../images/php.png';
 import stack6 from '../images/whatido.jpg';
 import stack7 from '../images/whychooseme.png';
+import stack8 from '../images/web.png';
 
 function Home() {
     return(
@@ -77,6 +78,22 @@ function Home() {
                             <p className='text-justify'>
                             With a keen eye for detail and a knack for problem-solving, I strive to create seamless digital experiences. Whether it's building responsive websites or optimizing performance, I am committed to delivering excellence in every line of code.
                             </p>
+                        </Col>
+                    </Row>
+                </Card>
+                <Card className='mt-lg-5 mt-3 shadow border-info border-3'>
+                    <Row lg={2} xs={1}>
+                        <Col className='m-auto p-lg-5 order-2 order-lg-1 pt-2'>
+                            <h3 className='text-center'>One of my Projects</h3>
+                            <p className='text-justify'>
+                            
+Jojo Faborada's Shoe Collection website is a stylish and user-friendly platform showcasing an extensive range of footwear. Designed with a modern aesthetic using HTML, CSS, and Bootstrap, the site features a responsive layout that highlights each shoe's details, including images, descriptions, and pricing.
+                            </p>
+                        </Col>
+                        <Col className='order-1 order-lg-2'>
+                            <div className='overflow-hidden'>
+                                <Image src={stack8} fluid className='zoom'/>
+                            </div>
                         </Col>
                     </Row>
                 </Card>
